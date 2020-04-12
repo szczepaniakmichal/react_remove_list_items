@@ -2,10 +2,6 @@ import React from "react";
 import './item.css'
 
 class Item extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }
 
     render() {
         return (
