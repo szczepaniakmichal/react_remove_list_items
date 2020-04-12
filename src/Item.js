@@ -8,11 +8,11 @@ class Item extends React.Component {
             <React.Fragment>
                 <li>
                     {this.props.person.name}
-                    <button
-                        onClick={this.props.click}
-                    >usuń
-                    </button>
                 </li>
+                <button
+                    onClick={this.props.click}
+                >usuń
+                </button>
             </React.Fragment>
 
         )

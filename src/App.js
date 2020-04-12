@@ -1,28 +1,31 @@
 import React from 'react';
 import Item from "./Item";
+import './app.css'
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            person: [
-                {
-                    id: 1,
-                    name: 'Staś',
-                },
-                {
-                    id: 2,
-                    name: 'Nel',
-                },
-                {
-                    id: 3,
-                    name: 'kot Filemon',
-                },
-                {
-                    id: 4,
-                    name: 'Reksio',
-                },
-            ]
+            person: [{"id":1,"name":"Drucie"},
+                {"id":2,"name":"Mabelle"},
+                {"id":3,"name":"Alyce"},
+                {"id":4,"name":"Vannie"},
+                {"id":5,"name":"Beale"},
+                {"id":6,"name":"Mikaela"},
+                {"id":7,"name":"Meyer"},
+                {"id":8,"name":"Angelico"},
+                {"id":9,"name":"Brina"},
+                {"id":10,"name":"Elise"},
+                {"id":11,"name":"Karlik"},
+                {"id":12,"name":"Christiano"},
+                {"id":13,"name":"Ronald"},
+                {"id":14,"name":"Rolland"},
+                {"id":15,"name":"Paulita"},
+                {"id":16,"name":"Tally"},
+                {"id":17,"name":"Johnette"},
+                {"id":18,"name":"Evonne"},
+                {"id":19,"name":"Myrtle"},
+                {"id":20,"name":"Guillermo"}]
         };
     }
 
